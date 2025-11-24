@@ -1,0 +1,38 @@
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+frontend/test-results/
+
+# Python / FastAPI
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Databases and local state
+backend/assignwell.db
+*.sqlite
+*.db
+
+# Environment files
+.env
+backend/.env
+
+# Logs
+*.log
+frontend/.next/**/logs/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# Alembic migrations cache
+backend/alembic/versions/__pycache__/
+
+# Build artifacts
+dist/
+build/
+coverage/
